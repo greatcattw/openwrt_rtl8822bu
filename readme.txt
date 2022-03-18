@@ -27,6 +27,9 @@ Caution:
 
 #make 88x2bu.ko 
 #pacakge build 
+
+#merge rtl8822bu.tar.*
+cat rtl8822bu.tar.* > rtl8822bu.tar
 untar 
 copy rtl8822bu/ to openrt/package/kernel 
 
